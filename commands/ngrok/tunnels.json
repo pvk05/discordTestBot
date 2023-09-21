@@ -1,0 +1,22 @@
+{
+    "tunnels": {
+        "minecraft":{
+            "name":"Minecraft server",
+            "description":"Started standard minecraft server",
+            "config":{
+                "proto":"tcp",
+                "addr":25565,
+                "metadata":"Tunnel for mc server on port 25565"
+            }
+        },
+        "web":{
+            "name":"Web server",
+            "description":"Started a standard web server",
+            "config":{
+                "proto":"http",
+                "addr":8080,
+                "metadata":"Standard http server"
+            }
+        }
+    }
+}
